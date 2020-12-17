@@ -1,0 +1,59 @@
+.container
+{
+    text-align: center;
+    margin-top: 10%; 
+    font-size: 40px;
+}
+
+.example-container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  .example-toolbar {
+    background-color: rgb(214, 206, 206);
+    
+  }
+
+  .field {
+    font-size: 14px;
+  
+}
+ 
+.example-margin {
+    margin: 0 10px;
+  }
+
+  .header{
+    text-align: left;
+    font-weight: 500;
+    font-size: 27px;
+}
+
+.button {
+    padding: 8% 1% 0% 38%;}
+
+// .button {
+//     padding: 10px 30px 10px 0;
+// }
+.register {
+    color: white;
+    font-size: 16px;
+    padding: 10px 0px;
+    width: fit-content;
+    transition: all 0.5s ease-in-out;
+    border-radius: 8px;
+    width: 100%;
+    font-weight: 700;
+    font-size: large;
+    margin-left: 6%;
+
+}
+
+mat-slider {
+  width: 550px;
+}
